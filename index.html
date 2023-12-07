@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Age calculator app</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-content">
+                <div class="box-inputs">
+                    <div class="single-input">
+                        <label>Day</label>
+                        <input type="text" placeholder="DD" id="day">
+                        <div class="error"></div>
+                    </div>
+                    <div class="single-input">
+                        <label>Month</label>
+                        <input type="text" placeholder="MM" id="month">
+                        <div class="error"></div>
+                    </div>
+                    <div class="single-input">
+                        <label>Year</label>
+                        <input type="text" placeholder="YYYY" id="year">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="button-content">
+                    <div class="line"></div>
+                    <button id="submit"><img src="assets/images/icon-arrow.svg"></button>
+                    <div class="line-sec"></div>
+                </div>
+                <div class="result-view">
+                    <span>--</span> years
+                </div>
+                <div class="result-view">
+                    <span>--</span> months
+                </div>
+                <div class="result-view">
+                    <span>--</span> days
+                </div>
+            </div>
+        </div>
+        
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Swati Pal</a>.
+        </div>
+
+    </body>
+</html>
